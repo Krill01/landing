@@ -1,0 +1,28 @@
+.footer {
+  background-color: #2C2B2B;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-links a {
+  color: rgba(30, 221, 136, 0.9);
+  font-size: 30px;
+}
+.footer-links a:hover {
+  color: rgba(30, 221, 136, 1);
+}
+/* .fab .fa-fw .fa-facebook-f {}
+.fab .fa-fw .fa-github {}
+.fab .fa-fw .fa-twitter {}
+.fab .fa-fw .fa-instagram {} */
+
+.footer p {
+  display: inline-block;
+  color: rgba(108, 108, 108, 1);
+  margin: 16px 0;
+}

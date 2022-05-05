@@ -1,0 +1,28 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+.section h2 {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.card {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230, 230, 230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230, 230, 230);
+}
+.section .card img {
+  height: 100px;
+  object-fit: cover;
+}
+/* .section .card h3 {} */
+/* .section .card p {} */

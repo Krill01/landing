@@ -1,0 +1,25 @@
+.banner {
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+}
+.banner p {
+  color: #B6B6B6;
+  font-size: 20px;
+}
+.banner .btn-green {
+  background-color: rgba(30, 221, 136, 0.8);
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+}
+.banner .btn-green:hover {
+  background-color: rgba(30, 221, 136, 1);
+}
+/* .banner .btn-green a  {} */
